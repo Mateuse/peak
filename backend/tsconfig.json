@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "target": "ES2018",
+      "module": "commonjs",
+      "esModuleInterop": true,
+      "sourceMap": true,
+      "outDir": "./dist",
+      "baseUrl": "./src",
+      "strict": true,
+      "noImplicitAny": true,
+      "moduleResolution": "node",
+      "resolveJsonModule": true
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules"]
+}
+  
